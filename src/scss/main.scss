@@ -1,0 +1,23 @@
+@import "normalize.css/normalize";
+@import "base/variables";
+@import "base/fonts";
+
+.head {
+  width: 600px;
+  height: 600px;
+  background-image: url(../img/22.jpg);
+
+  font-family: "Raleway";
+  font-weight: 800;
+}
+
+.header {
+  color: tomato;
+  background-color: black;
+  display: flex;
+  font-family: "Raleway";
+  font-weight: 400;
+  .test {
+    font-size: 80px;
+  }
+}
